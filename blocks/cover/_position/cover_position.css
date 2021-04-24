@@ -1,0 +1,15 @@
+.cover_position {
+    margin: 92px auto 0;
+}
+
+@media screen and (max-width:925px) {
+    .cover_position {
+        margin: 90px auto 0;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .cover_position {
+        margin: 66px auto 0;
+    }
+}

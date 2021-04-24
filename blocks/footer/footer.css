@@ -1,0 +1,22 @@
+.footer {
+    width: calc(100% - 48px*2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 18px;
+}
+
+@media screen and (max-width:925px) {
+    .footer {
+        width: calc(100% - 24px*2);
+        max-height: fit-content;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .footer {
+        width: calc(100% - 16px*2);
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
