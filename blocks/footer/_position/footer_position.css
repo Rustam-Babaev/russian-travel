@@ -1,0 +1,15 @@
+.footer_position {
+    margin: 92px auto 24px;
+}
+
+@media screen and (max-width: 925px) {
+    .footer_position {
+        margin: 88px auto 24px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer_position {
+        margin: 64px auto 24px;
+    }
+}

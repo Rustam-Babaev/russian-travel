@@ -1,0 +1,17 @@
+.places_position {
+    margin: 92px auto 0;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 925px) {
+    .places_position {
+        margin: 127px auto 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .places_position {
+        margin: 64px auto 0;
+    }
+}

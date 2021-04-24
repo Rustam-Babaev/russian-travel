@@ -1,0 +1,30 @@
+.intro {
+    max-width: 690px;
+}
+
+
+/* Для лучшей читаемости тескста выставил дополнительные брейкпойнты */
+
+@media screen and (max-width: 925px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .intro {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .intro {
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .intro {
+        max-width: 288px;
+    }
+}

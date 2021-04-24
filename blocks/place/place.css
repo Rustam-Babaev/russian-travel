@@ -1,0 +1,28 @@
+/* Сделал немного странные величины фракция т.к. соотношение сторон в макете разные, конечно я бы использовл стандартные 1fr, но для работы сделал исключение=) */
+
+.place {
+    display: grid;
+    grid-template-columns: 0.9746fr 1.0254fr;
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 1225px) {
+    .place {
+        grid-template-columns: 0.9826fr 1.0174fr;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .place {
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
