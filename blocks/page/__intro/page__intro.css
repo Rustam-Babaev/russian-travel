@@ -1,21 +1,21 @@
-.intro_posititon {
+.page__intro {
     margin: 96px 0 0 148px;
 }
 
 @media screen and (max-width: 1225px) {
-    .intro_posititon {
+    .page__intro {
         margin: 96px 0 0 48px;
     }
 }
 
 @media screen and (max-width: 925px) {
-    .intro_posititon {
+    .page__intro {
         margin: 88px 0 0 24px;
     }
 }
 
 @media screen and (max-width: 360px) {
-    .intro_posititon {
+    .page__intro {
         margin: 64px 0 0 16px;
     }
 }

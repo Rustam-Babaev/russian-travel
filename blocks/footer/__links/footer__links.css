@@ -1,16 +1,20 @@
-/* я эксперементировал со свойствами и при auto-fit можно добавлять до 7-8 ссылок прямо в HTML и они будут правильно отображаться и при уменьшении экрана, перемещаться вниз  */
-
 .footer__links {
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 20px));
-    max-width: calc(100% - 186px - 69px - 40%);
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 50px));
     gap: 18px;
+    max-width: 100%;
     list-style: none;
     padding: 0;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:740px) {
+    .footer__links {
+        grid-template-columns: repeat(auto-fit, minmax(85px, max-content));
+    }
+}
+
+@media screen and (max-width:460px) {
     .footer__links {
         gap: 32px;
     }
